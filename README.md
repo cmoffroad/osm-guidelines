@@ -68,17 +68,17 @@ If you need to create a signed posted or commonly known activity route (hiking, 
 
 ### Only use highway=path for narrow roads.
 
-Only use [highway=path](https://wiki.openstreetmap.org/wiki/Tag:highway=path) when the road is too narrow for a small 4-wheel car to go through, regardless of its main usage or condition (including grown vegetation, 4WD).
+Only use [highway=path](https://wiki.openstreetmap.org/wiki/Tag:highway=path) when the road is too narrow for a small 4-wheel car to go through, regardless of its main usage or condition (including grown vegetation).
 
-When adding them via Satellite Imagery, make sure they are the thinnest line possible, and there is no housing along. The majority of visible trails on satellite imagery are double/4WD tracks, including unmaintained ones. If you are not sure, tag it as [fixme=survey](https://wiki.openstreetmap.org/wiki/Key:fixme)
+When adding them via Satellite Imagery, make sure they are the thinnest line possible, and there is no housing along. The majority of visible trails on satellite imagery are double tracks, including unmaintained ones. If you are not sure, tag it as [fixme=survey](https://wiki.openstreetmap.org/wiki/Key:fixme)
 
-### Only use highway=footway in urban areas.
+### Only use highway=footway for designated & signposted ways
 
-Make sure to only use [highway=footway](https://wiki.openstreetmap.org/wiki/Tag:highway=footway) for urban paths that are designated primarily for pedestrians access. Use instead [highway=path](https://wiki.openstreetmap.org/wiki/Tag:highway=path) for all non-urban trails not large enough for a small 4-wheel car. 
+Make sure to only use [highway=footway](https://wiki.openstreetmap.org/wiki/Tag:highway=footway) for paths that are planned/maintained for pedestrians access (e.g. sidewalk, golf court footpath). Use instead [highway=path](https://wiki.openstreetmap.org/wiki/Tag:highway=path) for non designated/signposted trails not large enough for a small 4-wheel car. 
 
 - add [motorcyle=yes](https://wiki.openstreetmap.org/wiki/Key:motorcycle) when the path is commonly used by locals on a motorcycle (by default highway=path excludes all non-motorized vehicles). Do not tag yes, if locals only use it on foot (taang deen, ทางเดิน) but you have the skills and motorbike (extreme enduro) to navigate it.
 - add [width](https://wiki.openstreetmap.org/wiki/Key:width) in meters to describe how narrow is the path (e.g. 0.5, 1, 1.5, …)
-- add [surface](https://wiki.openstreetmap.org/wiki/Key:width) (see below)
+- add [surface](https://wiki.openstreetmap.org/wiki/Key:width)
 
 Optionally,
 - add [sac_scale](https://wiki.openstreetmap.org/wiki/Key:sac_scale) to classify hiking difficulty
