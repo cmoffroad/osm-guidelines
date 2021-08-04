@@ -76,7 +76,7 @@ When adding them via Satellite Imagery, make sure they are the thinnest line pos
 
 Make sure to only use [highway=footway](https://wiki.openstreetmap.org/wiki/Tag:highway=footway) for urban paths that are designated primarily for pedestrians access. Use instead [highway=path](https://wiki.openstreetmap.org/wiki/Tag:highway=path) for all non-urban trails not large enough for a small 4-wheel car. 
 
-- add [motorcyle=yes](https://wiki.openstreetmap.org/wiki/Key:motorcycle) when the path is commonly used by locals on a motorcycle (by default highway=path excludes all non-motorized vehicles). Do not tag yes, if locals only use it on foot (taang deen, ) but you have the skills and dualsport to 
+- add [motorcyle=yes](https://wiki.openstreetmap.org/wiki/Key:motorcycle) when the path is commonly used by locals on a motorcycle (by default highway=path excludes all non-motorized vehicles). Do not tag yes, if locals only use it on foot (taang deen, ทางเดิน) but you have the skills and motorbike (extreme enduro) to navigate it.
 - add [width](https://wiki.openstreetmap.org/wiki/Key:width) in meters to describe how narrow is the path (e.g. 0.5, 1, 1.5, …)
 - add [surface](https://wiki.openstreetmap.org/wiki/Key:width) (see below)
 
