@@ -1,6 +1,7 @@
 # OSM Guidelines
 
-A non-official, work-in-progress, personally used, set of guidelines for OSM mapping in northern Thailand with a strong off-road focus.
+A set of guidelines for improving the OpenStreetMap road network in northern Thailand with a strong focus on off-road.
+Based on [official OSM](https://wiki.openstreetmap.org/wiki/Main_Page) and [Thailand](https://wiki.openstreetmap.org/wiki/WikiProject_Thailand) wikis.
 
 ## Changesets
 
