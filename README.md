@@ -1,6 +1,6 @@
 # OSM Guidelines
 
-A non-official, work-in-progress, personnaly used, set of guidelines for off-road network mapping in northern Thailand.
+A non-official, work-in-progress, personnaly used, set of guidelines for OSM mapping in northern Thailand with a strong focus on the off-road network.
 
 ## Changesets
 
