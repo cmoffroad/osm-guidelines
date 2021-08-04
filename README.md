@@ -1,12 +1,14 @@
 # OSM Guidelines
 
-A non-official, work-in-progress, personnaly used, set of guidelines for OSM mapping in northern Thailand with a strong focus on the off-road network.
+A non-official, work-in-progress, personally used, set of guidelines for OSM mapping in northern Thailand with a strong off-road focus.
 
 ## Changesets
 
 ### Add a source to changesets
 
 Whether it’s GPS or Maxar/Esri, a [source](https://wiki.openstreetmap.org/wiki/Key:source) helps other mappers understand the context of your contributions.
+
+> Note: adding a source tag to each object is optional.
 
 ### Make smaller geographical changesets
 
