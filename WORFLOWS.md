@@ -1,6 +1,6 @@
 # Workflows
 
-A set of decision-tree workflow guidelines OSM tags.
+A set of decision-tree workflow guidelines for choosing appropriate OSM tags.
 
 ## Minor Road Classification:
 
