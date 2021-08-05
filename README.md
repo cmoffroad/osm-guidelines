@@ -67,6 +67,8 @@ If you need to create a signed posted or commonly known activity route (hiking, 
 
 ## Trails classification
 
+Use this [Decision-Tree Workflow](https://github.com/cmoffroad/osm-guidelines/blob/main/WORFLOWS.md#path-classification) to find out what should be the appropriate tag.
+
 ### Only use highway=path for narrow roads.
 
 Only use [highway=path](https://wiki.openstreetmap.org/wiki/Tag:highway=path) when the road is too narrow for a small 4-wheel car to go through, regardless of its main usage or condition (including grown vegetation).
@@ -85,30 +87,6 @@ Optionally,
 - add [sac_scale](https://wiki.openstreetmap.org/wiki/Key:sac_scale) to classify hiking difficulty
 - add [mtb:scale](https://wiki.openstreetmap.org/wiki/Key:mtb:scale) to classify mountain biking difficulty
 
-### Decision-Tree workflow
-
-- is the path wide enough for a pickup truck? (regardless of grown vegetation and surface smoothness)
-    - `yes`: follow [`Minor Road Classification`](#minor-road-classification) below
-    - `no`: has the path been built, designated or signposted for pedestrians only (e.g. sidewalk, golf course footpath, attraction walkway…)
-        - yes: `highway=footway`
-        - no: is the path commonly used by locals on motorcycles?
-            - yes: `highway=path` + `motorcycle=yes`
-            - no: `highway=path`
-
 ## Minor road classification
 
-### Decision-Tree workflow
-
-- is the road within a private estate ?
-  - `yes`: is the road within a gated housing community?
-    - `yes`: `highway=residential`
-    - `no`: `highway=service`
-  - `no`: is the main purpose of the road traffic through?
-    - `yes`: does it link two towns/villages/hamlets/settlements ? 
-      - `yes`: `highway=tertiary`
-      - `no`: `highway=unclassified`
-    - `no`:  does the road have no other function other than for residential purposes?
-      - `yes`: `highway=residential`
-      - `no`: is the main purpose of the road agriculture/forestry ?
-        - `yes`: `highway=track`
-        - `no`: `highway=unclassified`
+Use this [Decision-Tree Workflow](https://github.com/cmoffroad/osm-guidelines/blob/main/WORFLOWS.md#minor-road-classification) to find out what should be the appropriate tag.
