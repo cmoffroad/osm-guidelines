@@ -21,7 +21,7 @@ A set of decision-tree workflow guidelines OSM tags.
 ## Path Classification:
 
 - is the path wide enough for a pickup truck? (regardless of grown vegetation and surface smoothness)
-    - `yes`: follow `Minor Road Classification workflow` above
+    - `yes`: follow [`Minor Road Classification workflow`](#minor-road-classification) above
     - `no`: has the path been built, designated or signposted for pedestrians only (e.g. sidewalk, golf course footpath, attraction walkway…)
         - yes: `highway=footway`
         - no: is the path commonly used by locals on motorcycles?
