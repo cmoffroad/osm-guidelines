@@ -49,9 +49,9 @@ Next destination could be a village, a temple, an estate, or joining a road of e
 
 ### Splitting Road Segments:
 
-- does the road segment both follow the main way and branch out of it (L shape)
+- does the road segment both follow the main way and branch out of it ?
   - `yes`: split it at the junction and tag both segments separately
-  - `no`: is there a major change of surface along the road segment ? (paved to/from unpaved)
+  - `no`: is there a major change of surface along the road segment ? (paved to/from unpaved, long sections)
     - `yes`: split it where the change occurs and tag both segments separately
     - `no`: does the road qualify for different highway classification ?
       - `yes`: is the main road purpose traffic through ?
