@@ -10,17 +10,15 @@ Based on [official OSM](https://wiki.openstreetmap.org/wiki/Main_Page) and [Thai
 
 - is the road exclusively for pedestrians ?
   - `yes`: [highway=pedestrian](https://wiki.openstreetmap.org/wiki/Tag:highway=pedestrian)
-  - `no`: is the road within a private estate ?
+  - `no`: is the road inside a private property/estate ?
     - `yes`: is the road within a gated housing community?
       - `yes`: [highway=residential](https://wiki.openstreetmap.org/wiki/Tag:highway=residential)
-      - `no`: does the road lead to specific properties/buildings ?
+      - `no`: does the road lead to a specific property/building ?
         - `yes`: [highway=service](https://wiki.openstreetmap.org/wiki/Tag:highway=service) + [service=driveway](https://wiki.openstreetmap.org/wiki/Tag:service=driveway)
-        - `no`: is the road narrow and located between properties to access utilities ?
-          - `yes`: [highway=service](https://wiki.openstreetmap.org/wiki/Tag:highway=service) + [service=alley](https://wiki.openstreetmap.org/wiki/Tag:service=alley)
-          - `no`: [highway=service](https://wiki.openstreetmap.org/wiki/Tag:highway=service)
+        - `no`: [highway=service](https://wiki.openstreetmap.org/wiki/Tag:highway=service)
     - `no`: is the main purpose of the road traffic through?
       - `yes`: is it the main link between 2 towns/villages/hamlets/settlements ? 
-        - `yes`: is the surrounding network large enough (a few unclassified, residentials) to justify a more significant road ?
+        - `yes`: is the surrounding network large enough to justify a more significant road ? (e.g. a few unclassified, residentials roads)
           - `yes`: [highway=tertiary](https://wiki.openstreetmap.org/wiki/Tag:highway=tertiary)
           - `no`: [highway=unclassified](https://wiki.openstreetmap.org/wiki/Tag:highway=unclassified)    
         - `no`: [highway=unclassified](https://wiki.openstreetmap.org/wiki/Tag:highway=unclassified)
@@ -33,7 +31,9 @@ Based on [official OSM](https://wiki.openstreetmap.org/wiki/Main_Page) and [Thai
 > Note: A "traffic through road" means vehicles passing through an area who's destination is elsewhere.
 Next destination could be a village, a temple, an estate, or joining a road of equal or greater importance.
 
-> Note: If a road qualify for multiple tag classifications (e.g. different highway, surface...), it should be split into separate segments. e.g. The first 100 meters of an agricultural track may be paved an have permanent houses along. First part could be tagged as a paved residential, while the rest stay as an unpaved track.
+> Note: If a road qualify for multiple tag classifications, it may need to be split into separate segments. Follow [Splitting Road Segments](#splitting-road-segments) below to find out.
+
+> Note: If you are not sure which classification to use, do no change it. If you are adding a new road, tag it [highway=road](https://wiki.openstreetmap.org/wiki/Tag:highway=road) so someone else can review it.
 
 ### Path Classification:
 
