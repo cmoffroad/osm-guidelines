@@ -67,7 +67,7 @@ If you need to create a signed posted or commonly known activity route (hiking, 
 
 ## Trails classification
 
-Use this [Decision-Tree Workflow](https://github.com/cmoffroad/osm-guidelines/blob/main/WORFLOWS.md#path-classification) to find out what should be the appropriate tag.
+Use this [Decision Tree](https://github.com/cmoffroad/osm-guidelines/blob/main/WORFLOWS.md#path-classification) to find out what should be the appropriate tag.
 
 ### Only use highway=path for narrow roads.
 
@@ -89,4 +89,4 @@ Optionally,
 
 ## Minor road classification
 
-Use this [Decision-Tree Workflow](https://github.com/cmoffroad/osm-guidelines/blob/main/WORFLOWS.md#minor-road-classification) to find out what should be the appropriate tag.
+Use this [Decision Tree](https://github.com/cmoffroad/osm-guidelines/blob/main/WORFLOWS.md#minor-road-classification) to find out what should be the appropriate tag.
