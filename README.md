@@ -10,7 +10,7 @@ Based on [official OSM](https://wiki.openstreetmap.org/wiki/Main_Page) and [Thai
 
 - is the road exclusively for pedestrians ?
   - `yes`: [highway=pedestrian](https://wiki.openstreetmap.org/wiki/Tag:highway=pedestrian)
-  - `no`: is the road inside a private property/estate ?
+  - `no`: is the road inside a private property/estate/facility ?
     - `yes`: is the road within a gated housing community?
       - `yes`: [highway=residential](https://wiki.openstreetmap.org/wiki/Tag:highway=residential)
       - `no`: does the road lead to a specific property/building ?
