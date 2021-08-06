@@ -1,8 +1,10 @@
-# OSM Tags
+# OSM Guidelines
 
-A set of decision trees to help mappers choose appropriate OSM tags.
+A set of decision trees to help mappers choose appropriate OSM tags and geometries.
 
-## Minor Road Classification:
+## OSM Tags
+
+### Minor Road Classification:
 
 - is the road exclusively for pedestrians ?
   - `yes`: [highway=pedestrian](https://wiki.openstreetmap.org/wiki/Tag:highway=pedestrian)
@@ -31,7 +33,7 @@ Next destination could be a village, a temple, an estate, or joining a road of e
 
 > Note: If a road qualify for multiple tag classifications (e.g. different highway, surface...), it should be split into separate segments. e.g. The first 100 meters of an agricultural track may be paved an have permanent houses along. First part could be tagged as a paved residential, while the rest stay as an unpaved track.
 
-## Path Classification:
+### Path Classification:
 
 - is the path wide enough for a pickup truck? (regardless of grown vegetation and surface smoothness)
   - `yes`: follow [Minor Road Classification workflow](#minor-road-classification) above
@@ -40,3 +42,22 @@ Next destination could be a village, a temple, an estate, or joining a road of e
     - `no`: is the path commonly used by locals on motorcycles?
       - `yes`: [highway=path](https://wiki.openstreetmap.org/wiki/Tag:highway=path) + [motorcycle=yes](https://wiki.openstreetmap.org/wiki/Key:motorcycle)
       - `no`: [highway=path](https://wiki.openstreetmap.org/wiki/Tag:highway=path)
+
+## Geometries
+
+### Splitting Road Segments:
+
+- does the road segment both follow the main way and branch out of it (L shape)
+  - `yes`: split it at the junction and tag both segments separately
+  - `no`: is there a major change of surface along the road segment ? (paved to/from unpaved)
+    - `yes`: split it where the change occurs and tag both segments separately
+    - `no`: does the road qualify for different highway classification ?
+      - `yes`: is the main road purpose traffic through ?
+        - `yes`: do no split
+        - `no`: split it where the change occurs and tag both segments separately
+        
+### Merging Road Segments:
+
+- are both segments consecutive, follow the main way and share identical tag classification including surface ?
+  - `yes`: both segments can be merged
+  - `no`: do not merge
