@@ -16,7 +16,7 @@ A set of decision trees to help mappers choose appropriate OSM tags.
           - `no`: [highway=service](https://wiki.openstreetmap.org/wiki/Tag:highway=service)
     - `no`: is the main purpose of the road traffic through?
       - `yes`: is it the main link between 2 towns/villages/hamlets/settlements ? 
-        - `yes`: is the surrounding network large enough to justify a more significant road ? (a few unclassified, residentials) 
+        - `yes`: is the surrounding network large enough (a few unclassified, residentials) to justify a more significant road ?
           - `yes`: [highway=tertiary](https://wiki.openstreetmap.org/wiki/Tag:highway=tertiary)
           - `no`: [highway=unclassified](https://wiki.openstreetmap.org/wiki/Tag:highway=unclassified)    
         - `no`: [highway=unclassified](https://wiki.openstreetmap.org/wiki/Tag:highway=unclassified)
