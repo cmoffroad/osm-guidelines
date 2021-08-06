@@ -60,6 +60,6 @@ Next destination could be a village, a temple, an estate, or joining a road of e
         
 ### Merging Road Segments:
 
-- are both segments consecutive, follow the main way and share identical tag classification including surface and highway ?
+- are both roads segments consecutive, follow the main way and share identical tag classification including surface and highway ?
   - `yes`: both segments can be merged
   - `no`: do not merge
