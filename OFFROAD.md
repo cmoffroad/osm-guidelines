@@ -1,6 +1,7 @@
 # OSM Off-Road Guidelines
 
 A set of guidelines for improving the OpenStreetMap road network in northern Thailand with a strong focus on off-road.
+
 Based on [official OSM](https://wiki.openstreetmap.org/wiki/Main_Page) and [Thailand](https://wiki.openstreetmap.org/wiki/WikiProject_Thailand) wikis.
 
 ## Changesets
@@ -9,7 +10,7 @@ Based on [official OSM](https://wiki.openstreetmap.org/wiki/Main_Page) and [Thai
 
 Whether it’s GPS or Maxar/Esri, a [source](https://wiki.openstreetmap.org/wiki/Key:source) helps other mappers understand the context of your contributions.
 
-> Note: adding a source tag to each object is optional.
+> Note: adding a source tag to each object is optional, it can lead to confuse over time.
 
 ### Make smaller geographical changesets
 
@@ -81,7 +82,7 @@ Make sure to only use [highway=footway](https://wiki.openstreetmap.org/wiki/Tag:
 
 - add [motorcyle=yes](https://wiki.openstreetmap.org/wiki/Key:motorcycle) when the path is commonly used by locals on a motorcycle (by default highway=path excludes all non-motorized vehicles). Do not tag yes, if locals only use it on foot (taang deen, ทางเดิน) but you have the skills and motorbike (extreme enduro) to navigate it.
 - add [width](https://wiki.openstreetmap.org/wiki/Key:width) in meters to describe how narrow is the path (e.g. 0.5, 1, 1.5, …)
-- add [surface](https://wiki.openstreetmap.org/wiki/Key:width)
+- add [surface](https://wiki.openstreetmap.org/wiki/Key:surface)
 
 Optionally,
 - add [sac_scale](https://wiki.openstreetmap.org/wiki/Key:sac_scale) to classify hiking difficulty
