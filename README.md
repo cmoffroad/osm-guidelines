@@ -1,6 +1,6 @@
 # OSM Guidelines
 
-A set of decision trees to help mappers choose appropriate OSM tags and geometries.
+A set of guidelines to help mappers choose appropriate OSM tags and geometries.
 
 Based on [global](https://wiki.openstreetmap.org/wiki/Main_Page) and [Thailand](https://wiki.openstreetmap.org/wiki/WikiProject_Thailand) OSM wikis. Reviewed by members of the Thai OSM Community.
 
@@ -15,11 +15,13 @@ Based on [global](https://wiki.openstreetmap.org/wiki/Main_Page) and [Thailand](
   - `no`: is the road within a private property/estate/facility?
     - `yes`: is the road within a gated housing community?
       - `yes`: [highway=residential](https://wiki.openstreetmap.org/wiki/Tag:highway=residential)
-      - `no`: is the road frequently used as through traffic within a large area?
+      - `no`: is the road within a large property/estate/facility and frequently used as through traffic?
         - `yes`: [highway=unclassified](https://wiki.openstreetmap.org/wiki/Tag:highway=unclassified)
-        - `no`: does the road lead to a specific building?
-          - `yes`: [highway=service](https://wiki.openstreetmap.org/wiki/Tag:highway=service) + [service=driveway](https://wiki.openstreetmap.org/wiki/Tag:service=driveway)
-          - `no`: [highway=service](https://wiki.openstreetmap.org/wiki/Tag:highway=service)
+        - `no`: is the road unpaved and giving access to forestry/agricultural fields?
+          - `yes`: [highway=track](https://wiki.openstreetmap.org/wiki/Tag:highway=track)
+          - `no`: does the road lead to a specific building?
+            - `yes`: [highway=service](https://wiki.openstreetmap.org/wiki/Tag:highway=service) + [service=driveway](https://wiki.openstreetmap.org/wiki/Tag:service=driveway)
+            - `no`: [highway=service](https://wiki.openstreetmap.org/wiki/Tag:highway=service)
     - `no`: is the main purpose of the road through traffic?
       - `yes`: is it the main link between 2 towns/villages/hamlets/settlements ? 
         - `yes`: is the surrounding network large enough to justify a more significant road? (e.g. a few unclassified, residential roads)
