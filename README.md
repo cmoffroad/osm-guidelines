@@ -42,7 +42,7 @@ The next destination could be a village, a temple, an estate, or joining a road 
 
 - If a road qualifies for multiple tag classifications, it may need to be split into separate segments. Follow [Splitting Road Segments](#splitting-road-segments) below to find out.
 
-- If you change the classification of an existing [highway=track](https://wiki.openstreetmap.org/wiki/Tag:highway=track) that had no [surface](https://wiki.openstreetmap.org/wiki/Key:surface) specified, make sure to add [surface=unpaved](https://wiki.openstreetmap.org/wiki/Tag:surface=unpaved) if the road seems not paved. *Many dirt roads have been wrongly added as a track to be automatically rendered off-road in many applications*
+- If you change the classification of an existing [highway=track](https://wiki.openstreetmap.org/wiki/Tag:highway=track) that had no [surface](https://wiki.openstreetmap.org/wiki/Key:surface) specified, make sure to add [surface=unpaved](https://wiki.openstreetmap.org/wiki/Tag:surface=unpaved) if the road seems not paved. *Many dirt roads have been wrongly added as a track to be automatically rendered off-road in outdoor applications*
 
 - If you are not sure which classification to use, do no change it. If you are adding a new road geometry, tag it as [highway=road](https://wiki.openstreetmap.org/wiki/Tag:highway=road) for someone to review. 
 
