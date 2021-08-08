@@ -17,7 +17,7 @@ Based on [global](https://wiki.openstreetmap.org/wiki/Main_Page) and [Thailand](
       - `yes`: [highway=residential](https://wiki.openstreetmap.org/wiki/Tag:highway=residential)
       - `no`: is the road within a large property/estate/facility and frequently used as through traffic?
         - `yes`: [highway=unclassified](https://wiki.openstreetmap.org/wiki/Tag:highway=unclassified)
-        - `no`: is the road unpaved and giving access to forestry/agricultural fields?
+        - `no`: is the main purpose of the road access to forestry/agricultural fields?
           - `yes`: [highway=track](https://wiki.openstreetmap.org/wiki/Tag:highway=track)
           - `no`: does the road lead to a specific building?
             - `yes`: [highway=service](https://wiki.openstreetmap.org/wiki/Tag:highway=service) + [service=driveway](https://wiki.openstreetmap.org/wiki/Tag:service=driveway)
