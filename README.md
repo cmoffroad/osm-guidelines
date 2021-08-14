@@ -25,6 +25,10 @@ A changeset should be ideally within the same province/district.
 
 Uploaded [GPS traces](https://www.openstreetmap.org/traces) are visible as a map Overlay in [ID editor](https://www.openstreetmap.org/edit) and help other mappers understand the general accuracy of contributions. 
 
+### Add a source tag
+
+Add/Update [source](https://wiki.openstreetmap.org/wiki/Key:source) tag for all objects you added/modified to `source=GPS` or `source=survey` to reflect latest context.
+
 ### Indicate end of the road
 
 When adding or extending roads/paths based on GPS recording, add to the last node of the road:
@@ -42,6 +46,12 @@ There are quite a few conflicting tracks and residential roads that were added w
 ESRI, Mapbox, and Maxar are good alternatives.
 
 > Note: Maxar may have a slight offset in certain areas. Make sure to switch between layers to identify which imagery is more accurate.
+
+### Add a source tag
+
+Add/Update [source](https://wiki.openstreetmap.org/wiki/Key:source) tag for all objects you changed to e.g. `source=Maxar`, `source=Mapbox`, `source=ESRI` to reflect latest context.
+
+> Refrain from modifying an existing object if its latest modifications was done with a ground surveys.
 
 ### Avoid adding paths
 
