@@ -59,25 +59,15 @@ Make sure they are the thinnest line possible, and there is no housing along. Th
 
 ## Places
 
-### How to tag villages
+### Add missing villages
 
 - draw an area around the main part of the settlement(s) and tag it as [landuse=residential](https://wiki.openstreetmap.org/wiki/Tag:landuse=residential)
-- add a point at the center of the village and tag it with
-  - [place=hamlet](https://wiki.openstreetmap.org/wiki/Tag:place=hamlet)  for an isolated settlement, typically with less than 200 inhabitants, or around 50 houses
-  - [place=village](https://wiki.openstreetmap.org/wiki/Tag:place=village)  for a larger settlement with 200-1000 inhabitants or 50-250 houses
-  - [place=town](https://wiki.openstreetmap.org/wiki/Tag:place=town) for larger settlements
-  - [name](https://wiki.openstreetmap.org/wiki/Key:name) with the official name of the village in Thai (if known)
-  - [name:en](https://wiki.openstreetmap.org/wiki/Key:name) with the official name of the village in English (if known)
-
-### How to tag temples
-
-- draw an area around the temple grounds and tag it as [landuse=religious](https://wiki.openstreetmap.org/wiki/Tag:landuse=religious)
-- add a point at the center of the temple grounds and tag it with
-  - [amenity=place_of_worship](https://wiki.openstreetmap.org/wiki/Tag:amenity=place_of_worship) 
-  - [name](https://wiki.openstreetmap.org/wiki/Key:name) with the official name of the temple in Thai (if known)
-  - [name:en](https://wiki.openstreetmap.org/wiki/Key:name) with the official name of the temple in English (if known)
-  - [religion](https://wiki.openstreetmap.org/wiki/Key:name) with the relation (e.g. buddhist) (if known)
-- optionally, draw an area for each of the main buildings and tag them as [building=yes](https://wiki.openstreetmap.org/wiki/Tag:building=yes)
+  - if the area is inside an existing larger relation (e.g forest), add the forest as a Relation and choose inner as role.
+- if you know the official name of the village and its [Administrative level](https://wiki.openstreetmap.org/wiki/WikiProject_Thailand#Administrative_levels) classification
+  - add a point at the center of the village and tag it with:
+    - [place=hamlet](https://wiki.openstreetmap.org/wiki/Tag:place=hamlet), [place=village](https://wiki.openstreetmap.org/wiki/Tag:place=village), or [place=town](https://wiki.openstreetmap.org/wiki/Tag:place=town) depending on official Administrative Level
+    - [name](https://wiki.openstreetmap.org/wiki/Key:name) with the official name of the village in Thai
+    - [name:en](https://wiki.openstreetmap.org/wiki/Key:name) with the romanized transliteration of the official Thai name
 
 ## Minor Roads
 
@@ -185,5 +175,5 @@ It has been wrongly used to indicate:
 
 Additionally, road conditions change every season in Thailand and it is impossible to maintain the current status of every unpaved road.
 
-If you want to use it, make sure it matches the examples below, and you update its value over the year.
+If you want to use it, make sure it matches the examples below, and you update its value regularly.
 ![tracktype](https://wiki.openstreetmap.org/w/images/thumb/7/7f/Tracktype.jpg/800px-Tracktype.jpg)
