@@ -49,9 +49,9 @@ ESRI, Mapbox, and Maxar are good alternatives.
 
 ### Add a source tag
 
-Add/Update [source](https://wiki.openstreetmap.org/wiki/Key:source) tag for all objects you changed to e.g. `source=Maxar`, `source=Mapbox`, `source=ESRI` to reflect latest context.
+Add/Update [source](https://wiki.openstreetmap.org/wiki/Key:source) tag for all objects you changed to e.g. `source=Maxar`, `source=Mapbox`, or `source=ESRI` to reflect latest context.
 
-> Refrain from modifying an existing object if its latest modifications was done with a ground surveys.
+> Refrain from changing an existing object if its latest modification was done based on a ground survey.
 
 ### Avoid adding paths
 
