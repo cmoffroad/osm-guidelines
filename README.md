@@ -63,11 +63,12 @@ Make sure they are the thinnest line possible, and there is no housing along. Th
 
 - draw an area around the main part of the settlement(s) and tag it as [landuse=residential](https://wiki.openstreetmap.org/wiki/Tag:landuse=residential)
   - if the area is inside an existing larger relation (e.g forest), add the forest as a Relation and choose inner as role.
-- if you know the official name of the village and its [Administrative level](https://wiki.openstreetmap.org/wiki/WikiProject_Thailand#Administrative_levels) classification
-  - add a point at the center of the village and tag it with:
-    - [place=hamlet](https://wiki.openstreetmap.org/wiki/Tag:place=hamlet), [place=village](https://wiki.openstreetmap.org/wiki/Tag:place=village), or [place=town](https://wiki.openstreetmap.org/wiki/Tag:place=town) depending on official Administrative Level
-    - [name](https://wiki.openstreetmap.org/wiki/Key:name) with the official name of the village in Thai
-    - [name:en](https://wiki.openstreetmap.org/wiki/Key:name) with the romanized transliteration of the official Thai name
+- add a point at the center of the village and tag it with:
+  - [place=hamlet](https://wiki.openstreetmap.org/wiki/Tag:place=hamlet)
+  - [name](https://wiki.openstreetmap.org/wiki/Key:name) with the official name of the village in Thai
+  - [name:en](https://wiki.openstreetmap.org/wiki/Key:name) with the romanized transliteration of the official Thai name
+
+> Do not use [place=village](https://wiki.openstreetmap.org/wiki/Tag:place=village). Larger settlements should have been already added as [place=town](https://wiki.openstreetmap.org/wiki/Tag:place=town). Refer to these [Administrative levels](https://wiki.openstreetmap.org/wiki/WikiProject_Thailand#Administrative_levels) section for more information
 
 ## Minor Roads
 
