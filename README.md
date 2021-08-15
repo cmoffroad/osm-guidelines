@@ -65,7 +65,7 @@ Make sure they are the thinnest line possible, and there is no housing along. Th
   - if the area is inside an existing larger relation (e.g forest), add the forest as a Relation and choose inner as role.
 - add a point at the center of the village and tag it with:
   - [place=hamlet](https://wiki.openstreetmap.org/wiki/Tag:place=hamlet)
-  - [name](https://wiki.openstreetmap.org/wiki/Key:name) with the official name of the village in Thai
+  - [name](https://wiki.openstreetmap.org/wiki/Key:name) and [name:th](https://wiki.openstreetmap.org/wiki/Key:name) with the official name of the village in Thai
   - [name:en](https://wiki.openstreetmap.org/wiki/Key:name) with the romanized transliteration of the official Thai name
 
 > Do not use [place=village](https://wiki.openstreetmap.org/wiki/Tag:place=village). Larger settlements should have been already added as [place=town](https://wiki.openstreetmap.org/wiki/Tag:place=town). Refer to these [Administrative levels](https://wiki.openstreetmap.org/wiki/WikiProject_Thailand#Administrative_levels) section for more information
