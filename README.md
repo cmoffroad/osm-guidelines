@@ -160,9 +160,9 @@ If you need to create a signed posted or commonly known activity route (hiking, 
 
 ### Indicate how traffic goes through waterway crossings:
 
-- Add [ford=yes](https://wiki.openstreetmap.org/wiki/Key:fjord) at the node intersection when traffic must cross the river/stream. 
+- Add [ford=yes](https://wiki.openstreetmap.org/wiki/Key:ford) at the node intersection when traffic must cross the river/stream. 
 - Add a [bridge=yes](https://wiki.openstreetmap.org/wiki/Key:bridge) + [layer=1](https://wiki.openstreetmap.org/wiki/Key:layer) road segment when traffic can go over a bridge. Make sure to indicate surface (wood, concrete, metal, ...) and number of [lanes](https://wiki.openstreetmap.org/wiki/Key:lanes) (1 or 2+)
-- If you are not sure, add a [fixme=survey bridge/fjord](https://wiki.openstreetmap.org/wiki/Key:fixme) tag at the intersection node.
+- If you are not sure, add a [fixme=survey bridge/ford](https://wiki.openstreetmap.org/wiki/Key:fixme) tag at the intersection node.
 - If the [waterway](https://wiki.openstreetmap.org/wiki/Key:waterway) (stream or river) is missing, add a small section crossing the road and tag it as [fixme=continue](https://wiki.openstreetmap.org/wiki/Key:fixme)
 
 ### Avoid tracktype
