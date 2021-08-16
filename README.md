@@ -51,7 +51,7 @@ ESRI, Mapbox, and Maxar are good alternatives.
 
 Add/Update [source](https://wiki.openstreetmap.org/wiki/Key:source) tag for all objects you changed to e.g. `source=Maxar`, `source=Mapbox`, or `source=ESRI` to reflect latest context.
 
-> Refrain from changing an existing object if its latest modification was done based on a ground survey.
+> Refrain from changing an existing object if its latest modification was done based on a ground survey (GPS).
 
 ### Avoid adding paths
 
@@ -65,10 +65,10 @@ Make sure they are the thinnest line possible, and there is no housing along. Th
   - if the area is inside an existing larger relation (e.g forest), add the forest as a Relation and choose inner as role.
 - add a point at the center of the village and tag it with:
   - [place=hamlet](https://wiki.openstreetmap.org/wiki/Tag:place=hamlet)
-  - [name](https://wiki.openstreetmap.org/wiki/Key:name) and [name:th](https://wiki.openstreetmap.org/wiki/Key:name) with the official name of the village in Thai
+  - [name](https://wiki.openstreetmap.org/wiki/Key:name) with the official name of the village in Thai
   - [name:en](https://wiki.openstreetmap.org/wiki/Key:name) with the romanized transliteration of the official Thai name
 
-> Do not use [place=village](https://wiki.openstreetmap.org/wiki/Tag:place=village). Larger settlements should have been already added as [place=town](https://wiki.openstreetmap.org/wiki/Tag:place=town). Refer to these [Administrative levels](https://wiki.openstreetmap.org/wiki/WikiProject_Thailand#Administrative_levels) section for more information
+> Do not use [place=village](https://wiki.openstreetmap.org/wiki/Tag:place=village). Larger settlements should have been already added as [place=town](https://wiki.openstreetmap.org/wiki/Tag:place=town). Refer to these [Administrative levels](https://wiki.openstreetmap.org/wiki/WikiProject_Thailand#Administrative_levels) section for more information.
 
 ## Minor Roads
 
@@ -152,9 +152,10 @@ For [highway=path](https://wiki.openstreetmap.org/wiki/Tag:highway=path), additi
 
 ### Use the appropriate name tag:
 
-- use [name=...](https://wiki.openstreetmap.org/wiki/Key:name) for official road usage.
+- use [name=...](https://wiki.openstreetmap.org/wiki/Key:name) for official road usage in Thai. e.g. "ซอย 3"
+- use [name:en=...](https://wiki.openstreetmap.org/wiki/Key:name) for official road usage in English. e.g. "Soi 3"
 - use [description=...](https://wiki.openstreetmap.org/wiki/Key:description) for texts that can be viewed by other end-users. E.g. "very steep climb".
-- use [note=...](https://wiki.openstreetmap.org/wiki/Key:note) to leave a note to other mappers
+- use [note=...](https://wiki.openstreetmap.org/wiki/Key:note) to leave a note to other mappers.  e.g. "private road, do not tag as residential"
 
 If you need to create a signed posted or commonly known activity route (hiking, mountain biking, enduro, …), please create a [relation route](https://wiki.openstreetmap.org/wiki/Relation:route).
 
@@ -169,12 +170,12 @@ If you need to create a signed posted or commonly known activity route (hiking, 
 
 [tracktype](https://wiki.openstreetmap.org/wiki/Key:tracktype) should be normally used only on [highway=track](https://wiki.openstreetmap.org/wiki/Tag:highway=track) and unpaved roads, to indicate how well the road is maintained.
 
-It has been wrongly used to indicate:
+So far it has been used rarely and in most case the wrong way to indicate:
 - [surface=paved](https://wiki.openstreetmap.org/wiki/Tag:surface=paved) (`grade1`)
 - main road (`grade1`) instead of [highway=unclassified](https://wiki.openstreetmap.org/wiki/Tag:highway=unclassified)
 - difficulty or [smoothness](https://wiki.openstreetmap.org/wiki/Key:smoothness) (`grade4`, `grade5`)
 
 Additionally, road conditions change every season in Thailand and it is impossible to maintain the current status of every unpaved road.
 
-If you want to use it, make sure it matches the examples below, and you update its value regularly.
+If you want to use it, make sure it matches the examples below, and you update it regularly.
 ![tracktype](https://wiki.openstreetmap.org/w/images/thumb/7/7f/Tracktype.jpg/800px-Tracktype.jpg)
