@@ -58,20 +58,6 @@ Many residential roads have been wrongly added as path, while the visible road i
 
 If you are not sure if it's a path or a road, do not add it, or tag it as [fixme=survey](https://wiki.openstreetmap.org/wiki/Key:fixme)
 
-## Places
-
-### Add missing villages
-
-- draw an area around the main part of the settlement(s) and tag it as [landuse=residential](https://wiki.openstreetmap.org/wiki/Tag:landuse=residential)
-  - if the area is inside an existing larger relation (e.g forest), add the forest as a Relation and choose inner as role.
-- add a point at the center of the village and tag it with:
-  - [place=hamlet](https://wiki.openstreetmap.org/wiki/Tag:place=hamlet)
-  - [name](https://wiki.openstreetmap.org/wiki/Key:name) with the official name of the village in Thai
-  - [name:en](https://wiki.openstreetmap.org/wiki/Key:name) with the romanized transliteration of the official Thai name
-
-> In Thailand, villages are either Muban `หมู่บ้าน` or Thesaban `เทศบาล`, so only 2 categories are needed. Most larger settlements should have been already added as [place=town](https://wiki.openstreetmap.org/wiki/Tag:place=town), so [place=village](https://wiki.openstreetmap.org/wiki/Tag:place=village) is then not needed.
-> This will be reflected soon in the official Thailand wiki. For now, please refer to these [Administrative levels](https://wiki.openstreetmap.org/wiki/WikiProject_Thailand#Administrative_levels) section for more information.
-
 ## Minor Roads
 
 ### Always add a surface tag:
