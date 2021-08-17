@@ -10,14 +10,12 @@ Based on [global](https://wiki.openstreetmap.org/wiki/Main_Page) and [Thailand](
 
 ## Changesets
 
-### Add a source to changesets
-
-Whether it’s GPS or Maxar/Esri/Mapbox, a [source](https://wiki.openstreetmap.org/wiki/Key:source) helps other mappers understand the context of your contributions.
-
 ### Make small geographical changesets
 
 Smaller changesets make it easier for others to review your contributions.
 A changeset should be ideally within the same province/district.
+
+> If you do a lot of changes in the same area, combine them into a single changeset. This will reduce the list of visible changesets and help those who may review your contributions.
 
 ## Ground surveys
 
@@ -53,9 +51,12 @@ Add/Update [source](https://wiki.openstreetmap.org/wiki/Key:source) tag for all 
 
 > Refrain from changing an existing object if its latest modification was done based on a ground survey (GPS).
 
-### Avoid adding paths
+### Add paths with caution
 
-Make sure they are the thinnest line possible, and there is no housing along. The majority of visible trails on satellite imagery are double tracks, including unmaintained ones. If you are not sure, do not add it, or tag it as [fixme=survey](https://wiki.openstreetmap.org/wiki/Key:fixme)
+When adding paths based on satellite imagery, make sure they are the thinnest line possible, and there is no housing, cars visible along. 
+Many residential roads have been wrongly added as path, while the visible road is clearly large enough (double wheel track), and multiple housing, some with cars are present.
+
+If you are not sure if it's a path or a road, do not add it, or tag it as [fixme=survey](https://wiki.openstreetmap.org/wiki/Key:fixme)
 
 ## Places
 
@@ -68,19 +69,20 @@ Make sure they are the thinnest line possible, and there is no housing along. Th
   - [name](https://wiki.openstreetmap.org/wiki/Key:name) with the official name of the village in Thai
   - [name:en](https://wiki.openstreetmap.org/wiki/Key:name) with the romanized transliteration of the official Thai name
 
-> Do not use [place=village](https://wiki.openstreetmap.org/wiki/Tag:place=village). Larger settlements should have been already added as [place=town](https://wiki.openstreetmap.org/wiki/Tag:place=town). Refer to these [Administrative levels](https://wiki.openstreetmap.org/wiki/WikiProject_Thailand#Administrative_levels) section for more information.
+> In Thailand, villages are either Muban `หมู่บ้าน` or Thesaban `เทศบาล`, so only 2 categories are needed. Most larger settlements should have been already added as [place=town](https://wiki.openstreetmap.org/wiki/Tag:place=town), so [place=village](https://wiki.openstreetmap.org/wiki/Tag:place=village) is then not needed.
+> This will be reflected soon in the official Thailand wiki. For now, please refer to these [Administrative levels](https://wiki.openstreetmap.org/wiki/WikiProject_Thailand#Administrative_levels) section for more information.
 
 ## Minor Roads
 
 ### Always add a surface tag:
 
-When adding a new road, or modifying an existing one, please make sure a [surface](https://wiki.openstreetmap.org/wiki/Key:surface) tag is always present. This is to ensure routers don't redirect normal traffic through off-road conditions.
+When adding a new road, or modifying an existing one, please make sure to always include a [surface](https://wiki.openstreetmap.org/wiki/Key:surface) tag when known. This is to ensure routers don't redirect normal traffic through off-road conditions.
 
-> Many dirt roads have been wrongly tagged as `highway=track` without surface. When their classification change, the surface information is lost. 
+> Many dirt roads have been wrongly tagged as `highway=track` without surface for third-party rendering purposes. When their classification change, the surface information is lost. 
 
 - If the road qualifies for multiple surface classification, it may need to be split into separate segments. Follow [Splitting Road Segments](#splitting-road-segments) below to find out.
 - if you do not remember the exact surface or if the road surface may change frequently, use simply [surface=unpaved](https://wiki.openstreetmap.org/wiki/Tag:surface=unpaved) or [surface=paved](https://wiki.openstreetmap.org/wiki/Tag:surface=paved)
-- when adding roads based on satellite imagery, compare road color with the surrounding area. If you are not sure, leave it untagged for other mappers to review.
+- when adding roads based on satellite imagery, leave it untagged if the surface category is not clearly visible, so other mappers can survey it later.
 
 ### Choose the right minor road classification:
 
@@ -146,7 +148,7 @@ For [highway=path](https://wiki.openstreetmap.org/wiki/Tag:highway=path), additi
         
 ### Merge Road Segments:
 
-- are both road segments consecutive, follow the main way and share identical tag classification including surface and highway?
+- are both road segments consecutive, follow the main way and share identical tag classification including `surface`, `highway` and `source`?
   - `yes`: both segments can be merged
   - `no`: do not merge
 
