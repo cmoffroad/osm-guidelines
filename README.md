@@ -154,7 +154,7 @@ If you need to create a signed posted or commonly known activity route (hiking, 
 - If you are not sure, add a [fixme=survey bridge/ford](https://wiki.openstreetmap.org/wiki/Key:fixme) tag at the intersection node.
 - If the [waterway](https://wiki.openstreetmap.org/wiki/Key:waterway) (stream or river) is missing, add a small section crossing the road and tag it as [fixme=continue](https://wiki.openstreetmap.org/wiki/Key:fixme)
 
-### Avoid tracktype
+### Use tracktype with care
 
 [tracktype](https://wiki.openstreetmap.org/wiki/Key:tracktype) should be normally used only on [highway=track](https://wiki.openstreetmap.org/wiki/Tag:highway=track) and unpaved roads, to indicate how well the road is maintained.
 
@@ -165,5 +165,5 @@ So far it has been used rarely and in most case the wrong way to indicate:
 
 Additionally, road conditions change every season in Thailand and it is impossible to maintain the current status of every unpaved road.
 
-If you want to use it, make sure it matches the examples below, and you update it regularly.
+If you still want to use it, please make sure it matches the examples below, and update it regularly.
 ![tracktype](https://wiki.openstreetmap.org/w/images/thumb/7/7f/Tracktype.jpg/800px-Tracktype.jpg)
