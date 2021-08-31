@@ -17,6 +17,8 @@ A changeset should be ideally within the same province/district.
 
 > If you do a lot of changes in the same area, combine them into a single changeset. This will reduce the list of visible changesets and help those who may review your contributions.
 
+See global wiki [Changeset](https://wiki.openstreetmap.org/wiki/Changeset#Geographical_size_of_changesets) page for more info.
+
 ## Ground surveys
 
 ### Upload your GPX recordings
@@ -32,6 +34,15 @@ Add/Update [source](https://wiki.openstreetmap.org/wiki/Key:source) tag for all 
 When adding or extending roads/paths based on GPS recording, add to the last node of the road:
 - [noexit=yes](https://wiki.openstreetmap.org/wiki/Key:noexit) when there was no possibility to travel further (including path)
 - [fixme=continue](https://wiki.openstreetmap.org/wiki/Key:fixme) when the road continues but you haven’t been able to map it, and optionally describe the reason if there was any obstacle. e.g. [fixme=continue. tree blocking the way.](https://wiki.openstreetmap.org/wiki/Key:fixme)
+
+### Always add a surface tag:
+
+When adding a new road, or modifying an existing one, please make sure to always include a [surface](https://wiki.openstreetmap.org/wiki/Key:surface) tag when known. This is to ensure routers don't redirect normal traffic through off-road conditions.
+
+> Many dirt roads have been wrongly tagged as `highway=track` without surface for third-party rendering purposes. When their classification change, the surface information is lost. 
+
+- If the road qualifies for multiple surface classification, it may need to be split into separate segments. Follow [Splitting Road Segments](#splitting-road-segments) below to find out.
+- if you do not remember the exact surface or if the road surface may change frequently, use simply [surface=unpaved](https://wiki.openstreetmap.org/wiki/Tag:surface=unpaved) or [surface=paved](https://wiki.openstreetmap.org/wiki/Tag:surface=paved)
 
 ## Imagery surveys
 
@@ -59,16 +70,6 @@ Many residential roads have been wrongly added as path, while the visible road i
 If you are not sure if it's a path or a road, do not add it, or tag it as [fixme=survey](https://wiki.openstreetmap.org/wiki/Key:fixme)
 
 ## Minor Roads
-
-### Always add a surface tag:
-
-When adding a new road, or modifying an existing one, please make sure to always include a [surface](https://wiki.openstreetmap.org/wiki/Key:surface) tag when known. This is to ensure routers don't redirect normal traffic through off-road conditions.
-
-> Many dirt roads have been wrongly tagged as `highway=track` without surface for third-party rendering purposes. When their classification change, the surface information is lost. 
-
-- If the road qualifies for multiple surface classification, it may need to be split into separate segments. Follow [Splitting Road Segments](#splitting-road-segments) below to find out.
-- if you do not remember the exact surface or if the road surface may change frequently, use simply [surface=unpaved](https://wiki.openstreetmap.org/wiki/Tag:surface=unpaved) or [surface=paved](https://wiki.openstreetmap.org/wiki/Tag:surface=paved)
-- when adding roads based on satellite imagery, leave it untagged if the surface category is not clearly visible, so other mappers can survey it later.
 
 ### Choose the right minor road classification:
 
@@ -118,25 +119,6 @@ For [highway=path](https://wiki.openstreetmap.org/wiki/Tag:highway=path), additi
 - [width](https://wiki.openstreetmap.org/wiki/Key:width) in meters to describe how narrow is the path (e.g. 0.5, 1, 1.5, …)
 - [sac_scale](https://wiki.openstreetmap.org/wiki/Key:sac_scale) to classify hiking difficulty
 - [mtb:scale](https://wiki.openstreetmap.org/wiki/Key:mtb:scale) to classify mountain biking difficulty
-
-### Split Road Segments:
-
-- does the road segment both follow the main way and branch out of it?
-  - `yes`: split it at the junction and tag both segments separately
-  - `no`: is there a major change of surface along the road segment? (paved to/from unpaved, long sections)
-    - `yes`: split it where the change occurs and tag both segments separately
-    - `no`: does the road qualify for different highway classifications?
-      - `yes`: is the main road purpose through traffic?
-        - `yes`: do no split
-        - `no`: split it where the change occurs and tag both segments separately
-
-> Important: Do NOT curve road segments at junctions or exaggerate curves in other scenarios.
-        
-### Merge Road Segments:
-
-- are both road segments consecutive, follow the main way and share identical tag classification including `surface`, `highway` and `source`?
-  - `yes`: both segments can be merged
-  - `no`: do not merge
 
 ### Use the appropriate name tag:
 
