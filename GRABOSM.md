@@ -2,7 +2,7 @@
 
 ## MINOR ROAD CLASSIFICATIONS
 
-## NEW ADDITIONS
+## NEW ROAD ADDITIONS
 
 Please follow the official guidelines for minor road classifications https://wiki.openstreetmap.org/wiki/WikiProject_Thailand#Rough_guidelines_for_minor_highway_tag_decision-making_.28useful_in_most_cases.29
 
@@ -17,9 +17,7 @@ Please follow the official guidelines for minor road classifications https://wik
 
 > DO NOT add a new geometry if you are not sure of its classification.
 
-### highway=service
-
-## CHANGING EXISTING
+## CHANGING EXISTING ROADS
 
 Do NOT change any existing classification if the road:
 
