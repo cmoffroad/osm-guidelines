@@ -25,9 +25,9 @@ See global wiki [Changeset](https://wiki.openstreetmap.org/wiki/Changeset#Geogra
 
 Uploaded [GPS traces](https://www.openstreetmap.org/traces) are visible as a map Overlay in [ID editor](https://www.openstreetmap.org/edit) and help other mappers understand the general accuracy of contributions. 
 
-### Add a source tag
+### Add a source:geometry tag
 
-Add/Update [source](https://wiki.openstreetmap.org/wiki/Key:source) tag for all objects you added/modified to `source=GPS` or `source=survey` to reflect latest context.
+Add/Update [source:geometry](https://wiki.openstreetmap.org/wiki/Key:source:geometry) tag for all objects you added/modified to `source:geometry=GPS` or `source:geometry=survey` to reflect latest context.
 
 ### Indicate end of the road
 
@@ -56,18 +56,12 @@ ESRI, Mapbox, and Maxar are good alternatives.
 
 > Note: Maxar may have a slight offset in certain areas. Make sure to switch between layers to identify which imagery is more accurate.
 
-### Add a source tag
-
-Add/Update [source](https://wiki.openstreetmap.org/wiki/Key:source) tag for all objects you changed to e.g. `source=Maxar`, `source=Mapbox`, or `source=ESRI` to reflect latest context.
-
-> Refrain from changing an existing object if its latest modification was done based on a ground survey (GPS).
-
 ### Add paths with caution
 
 When adding paths based on satellite imagery, make sure they are the thinnest line possible, and there is no housing, cars visible along. 
 Many residential roads have been wrongly added as path, while the visible road is clearly large enough (double wheel track), and multiple housing, some with cars are present.
 
-If you are not sure if it's a path or a road, do not add it, or tag it as [fixme=survey](https://wiki.openstreetmap.org/wiki/Key:fixme)
+If you are not sure if it's a path or a road, do not add it, or tag it as [fixme=resurvey](https://wiki.openstreetmap.org/wiki/Key:fixme)
 
 ## Minor Roads
 
