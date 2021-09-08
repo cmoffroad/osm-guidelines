@@ -25,9 +25,9 @@ See global wiki [Changeset](https://wiki.openstreetmap.org/wiki/Changeset#Geogra
 
 Uploaded [GPS traces](https://www.openstreetmap.org/traces) are visible as a map Overlay in [ID editor](https://www.openstreetmap.org/edit) and help other mappers understand the general accuracy of contributions. 
 
-### Add a source:geometry tag
+### Add a source tag
 
-Add/Update [source:geometry](https://wiki.openstreetmap.org/wiki/Key:source:geometry) tag for all objects you added/modified to `source:geometry=GPS` or `source:geometry=survey` to reflect latest context.
+Add/Update [source](https://wiki.openstreetmap.org/wiki/Key:source) tag for all objects you added/modified to `source=GPS` or `source=survey` to reflect latest context.
 
 ### Indicate end of the road
 
