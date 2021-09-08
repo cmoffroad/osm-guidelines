@@ -103,7 +103,7 @@ The next destination could be a village, a temple, an estate, or joining a road 
 ### Choose the right path classification:
 
 - is the path too narrow for a pickup truck? (regardless of grown vegetation and surface smoothness)
-  - `yes`: has the path been built, maintained exclusively for pedestrians (e.g. sidewalk, golf course footpath, attraction walkway…)
+  - `yes`: is the path used exclusively for walking (e.g. sidewalk, golf course footpath, attraction walkway, mountain trail…)
     - `yes`: [highway=footway](https://wiki.openstreetmap.org/wiki/Tag:highway=footway)
     - `no`: is the path commonly used by locals on motorcycles?
       - `yes`: [highway=path](https://wiki.openstreetmap.org/wiki/Tag:highway=path) + [motorcycle=yes](https://wiki.openstreetmap.org/wiki/Key:motorcycle)
