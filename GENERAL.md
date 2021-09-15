@@ -1,6 +1,4 @@
-# OSM Guidelines
-
-A set of guidelines for improving the OpenStreetMap road network in northern Thailand with a strong focus on off-road.
+# General OSM Guidelines
 
 Based on [global](https://wiki.openstreetmap.org/wiki/Main_Page) and [Thailand](https://wiki.openstreetmap.org/wiki/WikiProject_Thailand) OSM wikis. 
 
@@ -18,31 +16,6 @@ A changeset should be ideally within the same province/district.
 > If you do a lot of changes in the same area, combine them into a single changeset. This will reduce the list of visible changesets and help those who may review your contributions.
 
 See global wiki [Changeset](https://wiki.openstreetmap.org/wiki/Changeset#Geographical_size_of_changesets) page for more info.
-
-## Ground surveys
-
-### Upload your GPX recordings
-
-Uploaded [GPS traces](https://www.openstreetmap.org/traces) are visible as a map Overlay in [ID editor](https://www.openstreetmap.org/edit) and help other mappers understand the general accuracy of contributions. 
-
-### Add a source tag
-
-Add/Update [source](https://wiki.openstreetmap.org/wiki/Key:source) tag for all objects you added/modified to `source=GPS` or `source=survey` to reflect latest context.
-
-### Indicate end of the road
-
-When adding or extending roads/paths based on GPS recording, add to the last node of the road:
-- [noexit=yes](https://wiki.openstreetmap.org/wiki/Key:noexit) when there was no possibility to travel further (including path)
-- [fixme=continue](https://wiki.openstreetmap.org/wiki/Key:fixme) when the road continues but you haven’t been able to map it, and optionally describe the reason if there was any obstacle. e.g. [fixme=continue. tree blocking the way.](https://wiki.openstreetmap.org/wiki/Key:fixme)
-
-### Always add a surface tag:
-
-When adding a new road, or modifying an existing one, please make sure to always include a [surface](https://wiki.openstreetmap.org/wiki/Key:surface) tag when known. This is to ensure routers don't redirect normal traffic through off-road conditions.
-
-> Many dirt roads have been wrongly tagged as `highway=track` without surface for third-party rendering purposes. When their classification change, the surface information is lost. 
-
-- If the road qualifies for multiple surface classification, it may need to be split into separate segments. Follow [Splitting Road Segments](#splitting-road-segments) below to find out.
-- if you do not remember the exact surface or if the road surface may change frequently, use simply [surface=unpaved](https://wiki.openstreetmap.org/wiki/Tag:surface=unpaved) or [surface=paved](https://wiki.openstreetmap.org/wiki/Tag:surface=paved)
 
 ## Imagery surveys
 
@@ -122,13 +95,6 @@ For [highway=path](https://wiki.openstreetmap.org/wiki/Tag:highway=path), additi
 - use [note=...](https://wiki.openstreetmap.org/wiki/Key:note) to leave a note to other mappers.  e.g. "private road, do not tag as residential"
 
 If you need to create a signed posted or commonly known activity route (hiking, mountain biking, enduro, …), please create a [relation route](https://wiki.openstreetmap.org/wiki/Relation:route).
-
-### Indicate how traffic goes through waterway crossings:
-
-- Add [ford=yes](https://wiki.openstreetmap.org/wiki/Key:ford) at the node intersection when traffic must cross the river/stream. 
-- Add a [bridge=yes](https://wiki.openstreetmap.org/wiki/Key:bridge) + [layer=1](https://wiki.openstreetmap.org/wiki/Key:layer) road segment when traffic can go over a bridge. Make sure to indicate surface (wood, concrete, metal, ...) and number of [lanes](https://wiki.openstreetmap.org/wiki/Key:lanes) (1 or 2+)
-- If you are not sure, add a [fixme=survey bridge/ford](https://wiki.openstreetmap.org/wiki/Key:fixme) tag at the intersection node.
-- If the [waterway](https://wiki.openstreetmap.org/wiki/Key:waterway) (stream or river) is missing, add a small section crossing the road and tag it as [fixme=continue](https://wiki.openstreetmap.org/wiki/Key:fixme)
 
 ### Use tracktype with care
 
