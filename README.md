@@ -1,6 +1,6 @@
 # OSM Off-Road Guidelines (Thailand)
 
-A set of guidelines for improving the OpenStreetMap off-road network in northern Thailand with a strong focus on enduro.
+A set of guidelines for improving the OpenStreetMap off-road network in northern Thailand with a focus on enduro, MTB and hiking.
 
 The goal is to bring together existing and new OSM contributors to make better maps available for the offroad community through popular mobile and Garmin applications.
 
@@ -10,7 +10,7 @@ The goal is to bring together existing and new OSM contributors to make better m
 
 ### `highway=track` + `surface=unpaved` + `source=GPS`
 
-4-wheel vehicles may be able or are known to use this way. 
+4-wheel vehicles (often only offroad type) may be able or are known to use this way. 
 
 - *1.5 meter wide or larger*
 - *presence of double tracks in the ground*
@@ -19,7 +19,7 @@ The goal is to bring together existing and new OSM contributors to make better m
 
 ### `highway=path` + `motorcycle=yes` + `surface=unpaved` + `source=GPS`
 
-Motorcycles may be able or are known to use this way.
+2-wheel vehicles (light-weight and often only offroad type) may be able or are known to use this way.
 
 - *1 meter wide or smaller*
 - *give access to nearby fields and villages*
@@ -28,7 +28,7 @@ Motorcycles may be able or are known to use this way.
 
 ### `highway=footway` + `surface=unpaved` + `source=GPS`
 
-Trails used exclusively for walking, only suitable for extreme sports
+Walking/hiking trails where high-risk extreme enduro/MTB might be possible depending on surface conditions and skills.
 
 - *found in very steep, mountainous terrain*
 - *presence of large rocks or roots*
@@ -43,20 +43,24 @@ Trails used exclusively for walking, only suitable for extreme sports
 
 - If part of your GPS trace include riding inside a creek, stream or river, do not create a `highway` segment for this section.
 
-- Because unpaved road surface conditions in Thailand change very often with weather and seasons, following tags are not taken into consideration: `tracktype`, `smoothness`. 
+- Because unpaved road surface conditions in Thailand change very often with weather and seasons, following tags are not taken into consideration: `tracktype`, `smoothness`, `trail_visibility`. 
 
 ### Applications
 
-List of applications supporting these guidelines:
+List of applications supporting these basic guidelines:
 
-#### Garmin NightRider Mod
+#### Garmin NightRider
 
 - source OSM Garmin map files from https://www.nightrider.info/ 
 - convert appearance with mod file https://mega.nz/file/91tGTKhI#xsVv2_pcxh45qXNyc9aYEEebT_3AbyjCSEBB_c8C30k
 
-#### OsmAnd Enduro Plugin
+#### Garmin AlternativasLibres
 
-- instructions at https://github.com/cmoffroad/osmand-plugin-enduro
+- instructions at https://alternativaslibres.org/en/downloads.php?fbclid=IwAR00hHsPRowfFKH9qH0rA3M3sQqNQ9qvq9Cb_WE1wFZHnquR1aA-JYB2XG4
+
+#### OsmAnd Offroad Survey Plugin
+
+- Coming soon...
 
 ## Advanced
 
@@ -69,10 +73,10 @@ Uploaded [GPS traces](https://www.openstreetmap.org/traces) are visible as a map
 - Add to the last node of the road [noexit=yes](https://wiki.openstreetmap.org/wiki/Key:noexit) when there was no possibility to travel further. This prevents other mappers to have do more ground survey to find out.
 - Use [fixme=continue](https://wiki.openstreetmap.org/wiki/Key:fixme) when the road continues but you haven’t been able to map it, and optionally describe the reason if there was any obstacle. e.g. [fixme=continue. tree blocking the way.](https://wiki.openstreetmap.org/wiki/Key:fixme)
 
-### Indicate how traffic goes through waterway crossings:
+### Indicate how vehicles go through waterway crossings:
 
 - If the [waterway](https://wiki.openstreetmap.org/wiki/Key:waterway) (stream or river) is missing, add a small section crossing the road.
-- Add [ford=yes](https://wiki.openstreetmap.org/wiki/Key:ford) at the node intersection when traffic must cross the river/stream. 
+- Add [ford=yes](https://wiki.openstreetmap.org/wiki/Key:ford) at the node intersection when vehicles must cross the river/stream. 
 - Add a [bridge=yes](https://wiki.openstreetmap.org/wiki/Key:bridge) + [layer=1](https://wiki.openstreetmap.org/wiki/Key:layer) road segment when traffic can go over a bridge.
 
 ### Use the appropriate text tag
@@ -84,6 +88,6 @@ Uploaded [GPS traces](https://www.openstreetmap.org/traces) are visible as a map
 
 ### Pick the right minor road classification
 
-Not all unpaved roads may be classified as `highway=track`. e.g. main roads between villages may be `unclassified`, while roads within private estate may be tagged as `service`. 
+Not all unpaved roads may be tagged as `highway=track` e.g. main roads between villages may be `unclassified`, while roads within private estate may be tagged as `service` 
 
-For more info, see the official [Minor Road Classification](https://wiki.openstreetmap.org/wiki/WikiProject_Thailand#Rough_guidelines_for_minor_highway_tag_decision-making_.28useful_in_most_cases.29).
+For more info, please refer to the official [Minor Road Classification](https://wiki.openstreetmap.org/wiki/WikiProject_Thailand#Rough_guidelines_for_minor_highway_tag_decision-making_.28useful_in_most_cases.29).
