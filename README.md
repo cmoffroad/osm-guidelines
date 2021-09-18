@@ -4,7 +4,7 @@ A set of guidelines for improving the OpenStreetMap off-road network in northern
 
 The goal is to bring together existing and new OSM contributors to make better maps available for the offroad community through popular mobile and Garmin applications.
 
-> Status: `Draft`, if you have any feedback, concerns or change requests, please kindly send me a [message](https://www.openstreetmap.org/message/new/cmoffroad).
+> Status: `Draft`. If you have any feedback, concerns or change requests, please post a message in this OSM forum [thread](https://forum.openstreetmap.org/viewtopic.php?pid=841479).
 
 ## Basics
 
@@ -60,9 +60,11 @@ List of applications supporting these basic guidelines:
 
 #### OsmAnd Offroad Survey Plugin
 
-- Coming soon...
+- instructions at https://github.com/cmoffroad/osmand-offroad-survey-plugin
 
-## Advanced
+> Currently in testing phase, welcoming beta users, if you have any technical issues or questions, please contact me via [OSM](https://www.openstreetmap.org/message/new/cmoffroad).
+
+## Extras
 
 ### Upload your GPS recordings
 
@@ -91,3 +93,5 @@ Uploaded [GPS traces](https://www.openstreetmap.org/traces) are visible as a map
 Not all unpaved roads may be tagged as `highway=track` e.g. main roads between villages may be `unclassified`, while roads within private estate may be tagged as `service` 
 
 For more info, please refer to the official [Minor Road Classification](https://wiki.openstreetmap.org/wiki/WikiProject_Thailand#Rough_guidelines_for_minor_highway_tag_decision-making_.28useful_in_most_cases.29).
+
+> Many agricultural tracks have been wrongly classified as `highway=residential` by Grab, feel free to correct those.
