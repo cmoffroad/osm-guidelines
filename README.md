@@ -17,6 +17,8 @@ The goal is to bring together existing and new OSM contributors to make better m
 - *may look like a path during rainy season due to to grown vegetation*
 - *known as "dirt road" or "ถนนดิน" or "thanon din"*
 
+> If the track is temporarily not passable due to fallen trees, add a `barrier=log` node at the location of the obstacle.
+
 ### `highway=path` + `motorcycle=yes` + `surface=unpaved` + `source=GPS`
 
 2-wheel vehicles (light-weight and often only offroad type) may be able or are known to use this way.
