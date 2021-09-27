@@ -4,7 +4,7 @@ A set of guidelines for improving the OpenStreetMap off-road network in northern
 
 The goal is to bring together existing and new OSM contributors to make better maps available for the offroad community through popular mobile and Garmin applications.
 
-> Status: `Draft`. If you have any feedback, concerns or change requests, please post a message in this OSM forum [thread](https://forum.openstreetmap.org/viewtopic.php?pid=841479).
+> If you have any feedback, concerns or change requests, please post a message in this OSM forum [thread](https://forum.openstreetmap.org/viewtopic.php?pid=841479).
 
 ## Basics
 
