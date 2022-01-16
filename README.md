@@ -64,8 +64,9 @@ List of applications supporting these basic guidelines:
 
 - instructions at https://github.com/cmoffroad/osmand-offroad-survey-plugin
 
-### Extras
+### Getting started
 
+- [Getting Started with OpenStreetMap](https://github.com/cmoffroad/osm-guidelines/blob/main/OSM.md)
 - [Common myths about OpenStreetMap](https://github.com/cmoffroad/osm-guidelines/blob/main/MYTHS.md)
 - [Common mapping mistakes](https://github.com/cmoffroad/osm-guidelines/blob/main/MISTAKES.md)
 - [Useful local lingo](https://github.com/cmoffroad/osm-guidelines/blob/main/LINGO.md)
