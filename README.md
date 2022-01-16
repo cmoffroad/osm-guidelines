@@ -32,7 +32,7 @@ The goal is to bring together existing and new OSM contributors to make better m
 
 Walking/hiking trails where high-risk extreme enduro/MTB might be possible depending on surface conditions and skills.
 
-- *found in very steep, mountainous terrain*
+- *found often in very steep, mountainous terrain*
 - *presence of large rocks or roots*
 - *narrow paths with sharp turns requiring pivot turns*
 - *known as "footpath" or "ทางเดิน" or "tang deun"*
