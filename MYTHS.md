@@ -10,15 +10,15 @@ I wish. Mobile maps are typically updated every 2 to 6 months, sometimes even lo
 
 ### Mountain trails are always tagged as “path” [ ----- ]: 
 
-Not exactly. For safety reasons, trails that are only suitable for walking (and extreme sports) should be tagged as “footway” [ ..... ].
+Not exactly. For safety reasons, trails that are only suitable for walking (and possibly extreme sports) may be tagged as “footway” [ ..... ].
 
 ### 4WD tracks are always tagged as “track” [ — — — ]:
 
-Most yes but not all. A “track” only means the main purpose of the road is agricultural or forestry, and some may even be paved. The main road between villages and attractions should be tagged as “unclassified” while sections of double tracks should be “residential” if they are within a settlement area. 
+Most yes but not all. A “track” only means the main purpose of the road is agricultural or forestry, and some may even be paved. The main road between villages and attractions should be tagged as “unclassified” while sections of double tracks should be “residential” if they are within a settlement area.
 
 ### Roads are always paved [ _______ ]
 
-Nope. Standard mobile and Garmin applications do not rely on the surface tag (unpaved vs paved). Roads in general are tagged based on importance in the road network, not based on the type of surface.
+Nope. Standard mobile and Garmin applications do not rely on the surface tag (unpaved vs paved). Roads in general are tagged based on their importance in the road network, not based on their type of surface.
 
 ### All roads, tracks, and trails exist and can be fully relied on:
 

@@ -1,6 +1,8 @@
+
 # OSM Off-Road Guidelines (Thailand)
 
-A set of guidelines for improving the OpenStreetMap off-road network in northern Thailand with a focus on enduro, MTB and hiking.
+A set of guidelines for imp
+roving the OpenStreetMap off-road network in northern Thailand with a focus on enduro, MTB and hiking.
 
 The goal is to bring together existing and new OSM contributors to make better maps available for the offroad community through popular mobile and Garmin applications.
 
@@ -10,16 +12,23 @@ The goal is to bring together existing and new OSM contributors to make better m
 
 ### `highway=track` + `surface=unpaved` + `source=GPS`
 
-4-wheel vehicles (often only offroad type) may be able or are known to use this way. 
+4-wheel vehicles may be able or are known to use this way. 
 
 - *1.5 meter wide or larger*
-- *presence of double tracks in the ground*
+- *often presence of double tracks in the ground*
 - *may look like a path during rainy season due to to grown vegetation*
 - *known as "dirt road" or "ถนนดิน" or "thanon din"*
+- *4-wheel vehicles include specialized off-road vehicles e.g. tractors, ATVs and small 4WDs*
+
+Because `highway=track` is reserved strictly for agricultural/forestry purposes, use instead:
+
+- `highway=unclassified` if the track is regularly used as the main link between 2 villages, or to reach an attraction or a road of higher or equal important (unclassified, tertiary, secondary...)
+
+- `highway=residential` for any track sections providing access to housing within a settlement.
 
 > If the track is temporarily not passable due to fallen trees, add a `barrier=log` node at the location of the obstacle.
 
-### `highway=path` + `motorcycle=yes` + `surface=unpaved` + `source=GPS`
+### `highway=path` + `surface=unpaved` + `source=GPS` + `motorcycle=yes`
 
 2-wheel vehicles (light-weight and often only offroad type) may be able or are known to use this way.
 
@@ -45,7 +54,7 @@ Walking/hiking trails where high-risk extreme enduro/MTB might be possible depen
 
 - If part of your GPS trace include riding inside a creek, stream or river, do not create a `highway` segment for this section.
 
-- Because unpaved road surface conditions in Thailand change very often with weather and seasons, following tags are not taken into consideration: `tracktype`, `smoothness`, `trail_visibility`. 
+- Because unpaved road surface conditions in Thailand change very often with weather and seasons, following tags are not currently taken into consideration: `tracktype`, `smoothness`, `trail_visibility`.
 
 ### Applications
 

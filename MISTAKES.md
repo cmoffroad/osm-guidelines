@@ -3,13 +3,13 @@
 ### Extending an existing road that may share different tags:
 Always create a new road segment and add the necessary tags. Consecutive segments of the same road sharing identical tags can be always merged later on.
 
-### No splitting an existing road that may share different tags:
-Split a road into multiple segments if different sections may need different tags. 
+### Not splitting an existing road that may share different tags:
+Split a road into multiple segments if different sections need different tags. 
 e.g. first section is paved within a residential area, the rest is an unmaintained agricultural track.
 
 ### Setting or changing a road to the wrong classification
 Make sure to refer to the official guidelines and decision tree.
-If you are unsure about the correct classification, do not add it or change it.
+If you are unsure about the correct classification, do not add/change it.
 > https://wiki.openstreetmap.org/wiki/WikiProject_Thailand#Rough_guidelines_for_minor_highway_tag_decision-making_.28useful_in_most_cases.29
 
 ### Creating a new track/path purely on a GPS trace.
