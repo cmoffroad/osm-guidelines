@@ -1,8 +1,7 @@
 
 # OSM Off-Road Guidelines (Thailand)
 
-A set of guidelines for imp
-roving the OpenStreetMap off-road network in northern Thailand with a focus on enduro, MTB and hiking.
+A set of guidelines for improving the OpenStreetMap off-road network in northern Thailand with a focus on enduro, MTB and hiking.
 
 The goal is to bring together existing and new OSM contributors to make better maps available for the offroad community through popular mobile and Garmin applications.
 
