@@ -36,6 +36,11 @@ Because `highway=track` is reserved strictly for agricultural/forestry purposes,
 - *found in flat or hilly terrain*
 - *known as "dirt path" or "ทางดิน" or "tang din"*
 
+If you are familiar with the trail, feel free to specify the trail difficulty scale depending on your activity:
+- [dirtbike:scale](https://wiki.openstreetmap.org/wiki/User:CMoffroad/Key:dirtbike:scale) for enduro.
+- [sac_scale](https://wiki.openstreetmap.org/wiki/Key:sac_scale) for hiking.
+- [mtb:scale](https://wiki.openstreetmap.org/wiki/Key:mtb:scale) for mountain biking.
+
 ### `highway=footway` + `surface=unpaved` + `source=GPS`
 
 Walking/hiking trails where high-risk extreme enduro/MTB might be possible depending on surface conditions and skills.
@@ -68,9 +73,9 @@ List of applications supporting these basic guidelines:
 
 - instructions at https://alternativaslibres.org/en/downloads.php?fbclid=IwAR00hHsPRowfFKH9qH0rA3M3sQqNQ9qvq9Cb_WE1wFZHnquR1aA-JYB2XG4
 
-#### OsmAnd Offroad Survey Plugin
+#### OsmAnd Outdoor Explorer Plugin
 
-- instructions at https://github.com/cmoffroad/osmand-offroad-survey-plugin
+- instructions at https://github.com/cmoffroad/osmand-outdoor-explorer-plugin
 
 ### Getting started
 
