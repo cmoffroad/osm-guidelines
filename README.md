@@ -13,7 +13,7 @@ The goal is to bring together existing and new OSM contributors to make better m
 
 4-wheel vehicles may be able or are known to use this way. 
 
-- *1.5 meter wide or larger*
+- *2 meter wide or larger*
 - *often presence of double tracks in the ground*
 - *may look like a path during rainy season due to to grown vegetation*
 - *known as "dirt road" or "ถนนดิน" or "thanon din"*
