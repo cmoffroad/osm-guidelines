@@ -10,21 +10,9 @@ Make sure to split the road segment if part of it has not been surveyed.
 
 > Do NOT tag an entire road segment if you havent surveyed the whole length. There might be a private property gate, an impassable section...
 
-### Tag paths only suitable for hiking and extreme sports as `highway=footway`
-Best way to know? Ask nearby villagers/farmers if a small motorcycle can go through or not.
-Or leave this to advanced riders to decide if suitable for beginner/moderate skills.
-
-### Tag paths frequently used by locals on small motorcycles as `highway=path` + `motorcycle=yes`
-Best way to know? Ask nearby villagers/farmers if a small motorcycle can go through.
-
 ### Tag paths large enough for a 4WD as `highway=track`
 Many double tracks have been incorrectly tagged as path due to grown vegetation, poor surface conditions and lazy mappers.
 Best way to know? Ask nearby villagers/farmers if a pickup track can go.
-
-### Convert `highway=path` to `waterway=stream` or `waterway=river`
-
-Some sections of riverbed and creeks have been wrongly mapped as path.
-If there is no clear path along the river or the stream, remove the path and make sure to add the necessary `waterway=stream` or `waterway=river` (larger, multiple meters wide).
 
 ### Indicate the end of the road
 

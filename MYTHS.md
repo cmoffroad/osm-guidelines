@@ -8,10 +8,6 @@ Unless you are using Google, Apple, or Bing maps (you should not for offroad), a
 
 I wish. Mobile maps are typically updated every 2 to 6 months, sometimes even longer. Only OsmAnd Pro due to its different rendering technology allows getting data refreshed within 1 hour.
 
-### Mountain trails are always tagged as “path” [ ----- ]: 
-
-Not exactly. For safety reasons, trails that are only suitable for walking (and possibly extreme sports) may be tagged as “footway” [ ..... ].
-
 ### 4WD tracks are always tagged as “track” [ — — — ]:
 
 Most yes but not all. A “track” only means the main purpose of the road is agricultural or forestry, and some may even be paved. The main road between villages and attractions should be tagged as “unclassified” while sections of double tracks should be “residential” if they are within a settlement area.
