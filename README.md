@@ -1,3 +1,3 @@
 # Outdoor Tagging
 
-See https://wiki.openstreetmap.org/wiki/User:CMoffroad/Outdoor_Tagging
+See https://wiki.openstreetmap.org/wiki/WikiProject_Thailand/Outdoor_Tagging
